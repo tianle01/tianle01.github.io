@@ -2,6 +2,9 @@ import { defineConfig } from "vite";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/fabiantantl.github.io/",
+  base: "/",            // user site
   plugins: [tailwindcss()],
+  build: {
+    outDir: "docs",
+  },
 });
