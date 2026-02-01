@@ -3,43 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fabian — Portfolio</title>
+    <title>Fabian Portfolio</title>
   </head>
-
   <body class="bg-white text-neutral-900">
     <!-- Page container -->
-    <main class="mx-auto max-w-[720px] px-6 py-24">
-
+     <!-- <main class="bg-red-500"> -->
+     <!-- <main class="mx-auto max-w-[720px] px-6 py-20 space-y-64 bg-red-500"> -->
+    <main class="mx-auto max-w-[720px] px-6 py-20 space-y-20">
       <!-- Intro / Hero -->
-      <section>
-        <h1 class="text-4xl font-semibold tracking-tight">
+      <section class="space-y-6">
+        <h1 class="text-4xl sm:text-5xl font-medium tracking-tight leading-[1.05]">
           Hi, I’m Fabian.
         </h1>
 
-        <p class="mt-6 text-lg text-neutral-600">
+        <p class="text-lg sm:text-xl leading-relaxed text-neutral-700">
           I design and build thoughtful products, with a focus on clarity,
           usability, and real-world impact.
         </p>
       </section>
 
       <!-- Selected work -->
-      <section class="mt-20">
-        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+      <section class="space-y-10">
+        <h2 class="text-base font-semibold uppercase tracking-wide text-neutral-600">
           Selected work
         </h2>
 
-        <ul class="mt-6 space-y-8">
+        <ul class="space-y-10">
           <li>
             <a href="#" class="group block">
-              <div class="flex items-baseline justify-between">
-                <h3 class="text-lg font-medium group-hover:underline">
+              <div class="flex items-baseline justify-between gap-6">
+                <h3 class="text-lg sm:text-xl font-medium tracking-tight underline-offset-4 group-hover:underline">
                   Project title
                 </h3>
-                <span class="text-sm text-neutral-500">
-                  2024
-                </span>
+                <span class="text-sm text-neutral-500">2024</span>
               </div>
-              <p class="mt-2 text-neutral-600">
+              <p class="mt-2 text-neutral-600 leading-relaxed">
                 One-line description of the problem you worked on and your role.
               </p>
             </a>
@@ -47,15 +45,13 @@
 
           <li>
             <a href="#" class="group block">
-              <div class="flex items-baseline justify-between">
-                <h3 class="text-lg font-medium group-hover:underline">
+              <div class="flex items-baseline justify-between gap-6">
+                <h3 class="text-lg sm:text-xl font-medium tracking-tight underline-offset-4 group-hover:underline">
                   Another project
                 </h3>
-                <span class="text-sm text-neutral-500">
-                  2023
-                </span>
+                <span class="text-sm text-neutral-500">2023</span>
               </div>
-              <p class="mt-2 text-neutral-600">
+              <p class="mt-2 text-neutral-600 leading-relaxed">
                 Short description focused on outcomes, not features.
               </p>
             </a>
@@ -64,12 +60,12 @@
       </section>
 
       <!-- About -->
-      <section class="mt-20">
-        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+      <section class="space-y-6">
+        <h2 class="text-base font-semibold uppercase tracking-wide text-neutral-600">
           About
         </h2>
 
-        <p class="mt-6 text-neutral-600">
+        <p class="text-neutral-700 leading-relaxed">
           I’m interested in building calm, intentional software that respects
           users’ time and attention. I enjoy working across design and
           engineering, and I care deeply about craft.
@@ -77,16 +73,21 @@
       </section>
 
       <!-- Footer / Contact -->
-      <footer class="mt-24 text-sm text-neutral-500">
-        <p>
-          <a href="mailto:you@email.com" class="hover:underline">Email</a>
-          ·
-          <a href="#" class="hover:underline">GitHub</a>
-          ·
-          <a href="#" class="hover:underline">LinkedIn</a>
+      <footer class="pt-10 border-t border-neutral-200 text-sm text-neutral-600">
+        <p class="flex flex-wrap gap-x-3 gap-y-2">
+          <a href="mailto:you@email.com" class="underline underline-offset-4 decoration-neutral-300 hover:decoration-neutral-500">
+            Email
+          </a>
+          <span class="text-neutral-400">·</span>
+          <a href="#" class="underline underline-offset-4 decoration-neutral-300 hover:decoration-neutral-500">
+            GitHub
+          </a>
+          <span class="text-neutral-400">·</span>
+          <a href="#" class="underline underline-offset-4 decoration-neutral-300 hover:decoration-neutral-500">
+            LinkedIn
+          </a>
         </p>
       </footer>
-
     </main>
 
     <script type="module" src="/src/main.js"></script>

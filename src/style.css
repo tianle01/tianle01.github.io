@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,5 +8,25 @@
   html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-white text-neutral-900;
+  }
+
+  /* Links: quiet but clear */
+  a {
+    @apply underline underline-offset-4 decoration-neutral-300 hover:decoration-neutral-500;
+  }
+
+  /* Headings: simple and consistent */
+  h1, h2, h3 {
+    @apply font-medium tracking-tight;
+  }
+
+  /* Paragraph rhythm */
+  p {
+    @apply leading-relaxed;
   }
 }
