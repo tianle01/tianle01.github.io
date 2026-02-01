@@ -1,3 +1,4 @@
+# ignore node_modules to keep repo size small
 node_modules
 dist
 .DS_Store
