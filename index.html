@@ -3,25 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fabian - Personal Website</title>
+    <title>Fabian — Portfolio</title>
   </head>
 
   <body class="bg-white text-neutral-900">
+    <!-- Page container -->
     <main class="mx-auto max-w-[720px] px-6 py-24">
-      <h1 class="text-4xl font-semibold tracking-tight">Hi, I'm Fabian.</h1>
 
-      <p class="mt-6 text-lg text-neutral-600">
-        I build thoughtful products and clean, human-centered software.
-      </p>
+      <!-- Intro / Hero -->
+      <section>
+        <h1 class="text-4xl font-semibold tracking-tight">
+          Hi, I’m Fabian.
+        </h1>
 
-      <section class="mt-16">
-        <h2 class="text-xl font-medium">Selected work</h2>
-        <ul class="mt-4 space-y-3 text-neutral-600">
-          <li>Project One</li>
-          <li>Project Two</li>
-          <li>Project Three</li>
+        <p class="mt-6 text-lg text-neutral-600">
+          I design and build thoughtful products, with a focus on clarity,
+          usability, and real-world impact.
+        </p>
+      </section>
+
+      <!-- Selected work -->
+      <section class="mt-20">
+        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+          Selected work
+        </h2>
+
+        <ul class="mt-6 space-y-8">
+          <li>
+            <a href="#" class="group block">
+              <div class="flex items-baseline justify-between">
+                <h3 class="text-lg font-medium group-hover:underline">
+                  Project title
+                </h3>
+                <span class="text-sm text-neutral-500">
+                  2024
+                </span>
+              </div>
+              <p class="mt-2 text-neutral-600">
+                One-line description of the problem you worked on and your role.
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="group block">
+              <div class="flex items-baseline justify-between">
+                <h3 class="text-lg font-medium group-hover:underline">
+                  Another project
+                </h3>
+                <span class="text-sm text-neutral-500">
+                  2023
+                </span>
+              </div>
+              <p class="mt-2 text-neutral-600">
+                Short description focused on outcomes, not features.
+              </p>
+            </a>
+          </li>
         </ul>
       </section>
+
+      <!-- About -->
+      <section class="mt-20">
+        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+          About
+        </h2>
+
+        <p class="mt-6 text-neutral-600">
+          I’m interested in building calm, intentional software that respects
+          users’ time and attention. I enjoy working across design and
+          engineering, and I care deeply about craft.
+        </p>
+      </section>
+
+      <!-- Footer / Contact -->
+      <footer class="mt-24 text-sm text-neutral-500">
+        <p>
+          <a href="mailto:you@email.com" class="hover:underline">Email</a>
+          ·
+          <a href="#" class="hover:underline">GitHub</a>
+          ·
+          <a href="#" class="hover:underline">LinkedIn</a>
+        </p>
+      </footer>
+
     </main>
 
     <script type="module" src="/src/main.js"></script>
